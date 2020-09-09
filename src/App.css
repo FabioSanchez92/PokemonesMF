@@ -24,8 +24,24 @@
   color: white;
 }
 
+.listPokemon {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+
+  color: white;
+}
+.centrarListP{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
+}
+.centrar{
+  padding: 20px;
 }
 
 @keyframes App-logo-spin {
